@@ -1,0 +1,99 @@
+
+.pet-details {
+  padding: 40px 7%;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.details-card {
+  display: flex;
+  gap: 35px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.details-card img {
+  width: 45%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.details-info {
+  padding: 15px;
+}
+
+.details-info h2 {
+  color: #145c4c;
+  margin-bottom: 15px;
+}
+
+.details-info p {
+  margin: 15px 0;
+}
+
+.details-info button {
+  padding: 13px 25px;
+  background: #16876b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.breed-information {
+  margin-top: 35px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  line-height: 1.8;
+}
+
+.enquiry-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.enquiry-section h2 {
+  color: #16876b;
+  margin-bottom: 10px;
+}
+
+.enquiry-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.enquiry-section label {
+  font-weight: 600;
+}
+
+.enquiry-section input,
+.enquiry-section textarea {
+  padding: 12px;
+  border: 1px solid #201e1e00;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.enquiry-section button {
+  padding: 13px;
+  background: #16876b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.enquiry-section button:hover {
+  background: #145c4c;
+}
